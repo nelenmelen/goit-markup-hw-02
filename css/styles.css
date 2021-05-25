@@ -6,16 +6,16 @@
     --color-button-logo: #2196F3;
     --hero-background: #2F303A;
    } 
-body.web-work{
-    text-decoration: none;
+.web-work{
     font-family: Roboto;
      font-style: normal;
      background-color: var(--white-color);
      color: var(--main-text-color);
 }
-/* убрать список */
-ul{
+/* универсальный селектор */
+*{
     list-style: none;
+    text-decoration: none;
 }
 /* ссылки */
 a{
@@ -24,17 +24,17 @@ a{
     font-style: normal;          
    }
 /* Шапка сайта */
-span.web-logo{
+.web-logo{
     color: #2196F3 
 }
-a.logo{
+.logo{
     font-family: Raleway;
     font-size: 26px;
     line-height: 31px;
-    color: black;
-    font-weight: bold;
+    color: #000000;
+    font-weight: bold; 
 }
-ul.web-link{
+.web-link{
     font-family: Roboto;
     font-size: 14px;
     line-height: 16px;
