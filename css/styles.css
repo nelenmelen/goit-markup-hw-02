@@ -47,6 +47,7 @@ a{
     line-height: 1.142;
     color: var(--main-color-headers) ;
     font-weight: 500;
+    letter-spacing: 0.03em;
  }
  a.mail{
     text-decoration: none;
@@ -97,6 +98,7 @@ a{
     color: var(--main-color-headers);
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 14px;
 }
 .ideas{
     font-family: Roboto;
@@ -112,6 +114,7 @@ a{
     color: var(--main-color-headers);
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 14px;
 }
 .our-punctuality{
     font-family: Roboto;
@@ -127,6 +130,7 @@ a{
     color: var(--main-color-headers);
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 14px;
 }
 .consultation{
     font-family: Roboto;
@@ -141,6 +145,7 @@ a{
     color: var(--main-color-headers);
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 14px;
 }
 .no-problems{
     font-family: Roboto;
@@ -149,28 +154,32 @@ a{
     font-weight: normal;
 }
 /* Чем мы занимаемся */
-h2.title{
+.title{
     font-family: Roboto;
     line-height: 1.166;
     font-weight: bold;
     color: var(--main-color-headers);
     text-align: center;
+    font-size: 36px;
 }
 /* Наша команда */
-h2.our-team{
+.our-team{
     font-family: Roboto;
     line-height: 1.166;
     font-weight: bold;
     color: var(--main-color-headers);
     text-align: center;
+    font-size: 36px;
+
 }
-h3.team-members{
+.team-members{
     font-family: Roboto;
     line-height: 1.187;
     font-weight: 500;
     color: var(--main-color-headers);
+    font-size: 16px;
 }
-p.team-text{
+.team-text{
     font-family: Roboto;
     font-size: 16px;
     font-weight: normal;
@@ -187,14 +196,16 @@ p.team-text{
     font-weight: bold;
     line-height: 1.192;
     color: var(--color-button-logo);
+    font-size: 26px;
 }
 .footer-studio{
     font-family: Raleway;
     font-weight: bold;
     line-height: 1.192;
     color:  var(--white-color);
+    font-size: 26px;
 }
-address.address-style{
+.address-style{
     font-style: normal;
     font-family: Roboto;
     font-weight: normal;
@@ -224,23 +235,23 @@ address.address-style{
     
 
     /* Хедер портфолио */
-    span.web-logo{
+    .web-logo{
         color: var(--color-button-logo)
     }
-    a.logo{
+    .logo{
         font-family: Raleway;
         line-height: 1.192;
         color: var(--main-color-headers);
         font-weight: bold;
     }
-     a.mail{
+    .mail{
         text-decoration: none;
         font-family: Roboto;
         font-weight: 500;
         color: var(-main-text-color);
         line-height: 1.142;
      }
-    a.phone{
+    .phone{
         text-decoration: none;
         font-family: Roboto;
         font-weight: 500;
