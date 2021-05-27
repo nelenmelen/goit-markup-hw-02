@@ -49,9 +49,10 @@ a{
     font-weight: 500;
     letter-spacing: 0.03em;
  }
- a.mail{
+.mail{
     text-decoration: none;
     font-family: Roboto;
+    font-size: 14px;
     font-weight: 500;
     color: var(-main-text-color);
     line-height: 1.142;
@@ -59,6 +60,7 @@ a{
 .phone{
     text-decoration: none;
     font-family: Roboto;
+    font-size: 14px;
     font-weight: 500;
     color: var(-main-text-color);
     line-height: 1.142;
@@ -95,18 +97,19 @@ a{
 .detales{
     font-family: Roboto;
     line-height: 1.142;
+    font-size: 14px;
     color: var(--main-color-headers);
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 14px;
+    
 }
 .ideas{
     font-family: Roboto;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.714;
     color: var(-main-text-color);
     font-weight: normal;
-    text-transform: uppercase;
+    
 }
 .punctuality{
     font-family: Roboto;
@@ -135,6 +138,7 @@ a{
 .consultation{
     font-family: Roboto;
     line-height: 1.714;
+    font-size: 14px;
     color: var(-main-text-color);
     font-weight: normal;
     ;
@@ -150,6 +154,7 @@ a{
 .no-problems{
     font-family: Roboto;
     line-height: 1.714;
+    font-size: 14px;
     color: var(-main-text-color);
     font-weight: normal;
 }
@@ -212,17 +217,20 @@ a{
     line-height: 1.714;
     color:  var(--white-color);
     }
-.footer-mail{
+.mail{
     Text-decoration: none;
     font-family: Roboto;
+    font-size: 14px;
     font-weight: normal;
     line-height: 1.714;
     color: rgba(255, 255, 255, 0.6);
     }
-.footer-tel{
+.phone{
     Text-decoration: none;
     font-family: Roboto;
+    font-style: normal;
     font-weight: normal;
+    font-size: 14px;
     line-height: 1.714;
     color: rgba(255, 255, 255, 0.6);
     }
@@ -247,15 +255,17 @@ a{
     .mail{
         text-decoration: none;
         font-family: Roboto;
+        font-size: 14px;
         font-weight: 500;
-        color: var(-main-text-color);
+        color: var(--main-text-color);
         line-height: 1.142;
      }
     .phone{
         text-decoration: none;
         font-family: Roboto;
+        font-size: 14px;
         font-weight: 500;
-        color: var(-main-text-color);
+        color: var(--main-text-color);
         line-height: 1.142;
     } 
    /* Кнопки портфолио */
@@ -282,9 +292,19 @@ a{
     color: var(--main-color-headers);
     }
 
+    .portfolio-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--main-color-headers);
+    }
+
 .photo-name{
     font-family: Roboto;
     font-weight: normal;
+    font-size: 16px;
     line-height: 1.875;
     color: var(-main-text-color);
 }
@@ -294,36 +314,38 @@ a{
 .portfolio-down{
     background: var(--background);
 }
-span.footer-web{
+.footer-web{
     font-family: Raleway;
     font-weight: bold;
     line-height: 1.192;
     color: var(--color-button-logo);
 }
-span.footer-studio{
+.footer-studio{
     font-family: Raleway;
     font-weight: bold;
     line-height: 1.192;
     color:  var(--white-color);
 }
-address.address-style{
+.address-style{
     font-style: normal;
     font-family: Roboto;
     font-weight: normal;
     line-height: 1.714;
     color: var(--white-color);
     }
-a.footer-mail{
+.mail{
     Text-decoration: none;
     font-family: Roboto;
+    font-size: 14px;
     font-weight: normal;
     line-height: 1.714;
-    color: rgba(255, 255, 255, 0.6);
+    color: #757575;
     }
-a.footer-tel{
+.phone{
     Text-decoration: none;
     font-family: Roboto;
+    font-size: 14px;
     font-weight: normal;
     line-height: 1.714;
-    color: rgba(255, 255, 255, 0.6);
+    color: #757575;
     }
