@@ -5,7 +5,7 @@
     --section-buttons: #F5F4FA;
     --color-button-logo: #2196F3;
     --background: #2F303A;
-    --color-logo-links: violet  
+    --color-logo-links: #2196F3 
    } 
 .web-work{
     font-family: Roboto;
@@ -41,6 +41,14 @@ a{
     line-height: 31px;
     color: var(--main-color-headers);
     font-weight: bold; 
+}
+.web-nav{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--main-color-headers) ;
 }
 .web-link{
     font-family: Roboto;
@@ -122,7 +130,7 @@ a{
 .our-punctuality{
     font-family: Roboto;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.714;
     color: var(-main-text-color);
     font-weight: normal;
     
@@ -339,7 +347,7 @@ a{
     font-size: 14px;
     font-weight: normal;
     line-height: 1.714;
-    color: #757575;
+    color: var(--main-text-color);
     }
 .phone{
     Text-decoration: none;
@@ -347,5 +355,5 @@ a{
     font-size: 14px;
     font-weight: normal;
     line-height: 1.714;
-    color: #757575;
+    color: var(--main-text-color);
     }
