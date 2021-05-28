@@ -25,23 +25,31 @@
   color: var(--color-logo-links);
 }
 /* ссылки */
-a{
+.link{
     color:inherit;
     text-decoration: none;
     font-style: normal;   
           
    }
 /* Шапка сайта */
-.web-logo{
-    color: var(--color-button-logo) 
-}
-.logo{
+.logo {
+    font-style: normal;
+    letter-spacing: 0.03em;
     font-family: Raleway;
+    font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.192;
     color: var(--main-color-headers);
-    font-weight: bold; 
-}
+  }
+  .web-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--color-logo-links);
+  }
 .web-nav{
     font-family: Roboto;
     font-style: normal;
@@ -53,26 +61,23 @@ a{
 .web-link{
     font-family: Roboto;
     line-height: 1.142;
+    font-style: normal;
+    font-size: 14px;
     color: var(--main-color-headers) ;
     font-weight: 500;
     letter-spacing: 0.03em;
  }
-.mail{
+.web-contacts .links{
     text-decoration: none;
     font-family: Roboto;
+    font-style: normal;
     font-size: 14px;
     font-weight: 500;
     color: var(-main-text-color);
     line-height: 1.142;
+    letter-spacing: 0.02em;
  }
-.phone{
-    text-decoration: none;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(-main-text-color);
-    line-height: 1.142;
-}
+
 /* Герой */
 .hero-title{
     font-weight: 900;
@@ -102,70 +107,26 @@ a{
      border-radius: 4px;     
      border: none; 
 }
-.detales{
+.special-title{
     font-family: Roboto;
     line-height: 1.142;
     font-size: 14px;
     color: var(--main-color-headers);
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
     
 }
-.ideas{
+.special-text{
     font-family: Roboto;
     font-size: 14px;
     line-height: 1.714;
-    color: var(-main-text-color);
+    color: var(--main-text-color);
     font-weight: normal;
+    letter-spacing: 0.03em;
     
 }
-.punctuality{
-    font-family: Roboto;
-    line-height: 1.142;
-    color: var(--main-color-headers);
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-.our-punctuality{
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1.714;
-    color: var(-main-text-color);
-    font-weight: normal;
-    
-}
-.plans{
-    font-family: Roboto;
-    line-height: 1.142;
-    color: var(--main-color-headers);
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-.consultation{
-    font-family: Roboto;
-    line-height: 1.714;
-    font-size: 14px;
-    color: var(-main-text-color);
-    font-weight: normal;
-    ;
-}
-.technology{
-    font-family: Roboto;
-    line-height: 1.142;
-    color: var(--main-color-headers);
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-.no-problems{
-    font-family: Roboto;
-    line-height: 1.714;
-    font-size: 14px;
-    color: var(-main-text-color);
-    font-weight: normal;
-}
+
 /* Чем мы занимаемся */
 .title{
     font-family: Roboto;
@@ -174,6 +135,7 @@ a{
     color: var(--main-color-headers);
     text-align: center;
     font-size: 36px;
+    letter-spacing: 0.03em;
 }
 /* Наша команда */
 .our-team{
@@ -183,6 +145,7 @@ a{
     color: var(--main-color-headers);
     text-align: center;
     font-size: 36px;
+    letter-spacing: 0.03em;
 
 }
 .team-members{
@@ -191,13 +154,15 @@ a{
     font-weight: 500;
     color: var(--main-color-headers);
     font-size: 16px;
+    letter-spacing: 0.03em;
 }
 .team-text{
     font-family: Roboto;
     font-size: 16px;
     font-weight: normal;
     line-height: 19px;
-    color: var(-main-text-color);
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
 }
 /* Андреса */
 .site-down{
@@ -210,6 +175,7 @@ a{
     line-height: 1.192;
     color: var(--color-button-logo);
     font-size: 26px;
+    letter-spacing: 0.03em;
 }
 .footer-studio{
     font-family: Raleway;
@@ -217,13 +183,15 @@ a{
     line-height: 1.192;
     color:  var(--white-color);
     font-size: 26px;
+    letter-spacing: 0.03em;
 }
 .address-style{
-    font-style: normal;
     font-family: Roboto;
     font-weight: normal;
     line-height: 1.714;
+    font-size: 14px;
     color:  var(--white-color);
+    letter-spacing: 0.03em;
     }
 .mail{
     Text-decoration: none;
@@ -232,6 +200,7 @@ a{
     font-weight: normal;
     line-height: 1.714;
     color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
     }
 .phone{
     Text-decoration: none;
@@ -241,26 +210,21 @@ a{
     font-size: 14px;
     line-height: 1.714;
     color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
     }
 
 
 
     /* Портфолио */
-
-    /* общие свойства портфолио */
-    
-
-    /* Хедер портфолио */
-    .web-logo{
-        color: var(--color-button-logo)
-    }
-    .logo{
-        font-family: Raleway;
-        line-height: 1.192;
-        color: var(--main-color-headers);
-        font-weight: bold;
-    }
-    .mail{
+    .web-link{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.142;
+        color: var(--main-color-headers) ;
+}
+     .mail{
         text-decoration: none;
         font-family: Roboto;
         font-size: 14px;
@@ -278,16 +242,23 @@ a{
     } 
    /* Кнопки портфолио */
 
+.button-portfolio:focus,
+.button-portfolio:hover {
+  background-color: var(--color-logo-links);
+}
+
    .button-portfolio{
     font-family: Roboto;
     font-weight: 500;
     line-height: 1.625;
-    text-align: center;
+    font-size: 16px;
     letter-spacing: 0.03em;
     color: var(--main-color-headers);
     background-color: var(--section-buttons);
     border-radius: 4px;
     border: none; 
+    cursor: pointer;
+    font-style: normal;
    }
 
    /* Фото портфолио */
@@ -307,6 +278,7 @@ a{
     font-size: 18px;
     line-height: 2;
     color: var(--main-color-headers);
+    letter-spacing: 0.06em;
     }
 
 .photo-name{
@@ -314,7 +286,8 @@ a{
     font-weight: normal;
     font-size: 16px;
     line-height: 1.875;
-    color: var(-main-text-color);
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
 }
 
 /* Адрес */
